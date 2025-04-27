@@ -1,6 +1,6 @@
 node {
     stage('Clone Repository') {
-        git  branch: 'main', url:'https://github.com/ryuzaki710/Jenkins-S3-Travelling-Website.git'
+        git  branch: 'main', url:'https://github.com/hrushikeshpthube/JenkinsRepo.git'
     }
 	
   stage('Upload to S3') {
